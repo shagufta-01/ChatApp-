@@ -1,14 +1,11 @@
-import { Button, Heading } from "@chakra-ui/react";
+import React from 'react'
 
 function App() {
   return (
     <div>
-      <Heading>Welcome to Chakra UI with Vite</Heading>
-      <Button colorScheme="teal" mt={4}>
-        Click Me
-      </Button>
+      <h1>Hello</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
